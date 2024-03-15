@@ -4,26 +4,26 @@ import edu from '../assets/education.png'
 
 const About=()=>{
     return(
-        <div className="About h-[96vh] pt-24">
+        <div id="About" className="About sm:h-[96vh] sm:pt-24">
             <div>
             <p className="text-center">Get to Know More</p>
-            <h2 className="text-center text-5xl font-bold my-3">About Me</h2>
+            <h2 className="text-center text-5xl font-bold sm:my-3">About Me</h2>
             </div>
             
-            <div className="about-container flex gap-5 mt-40">
-                <div className="about-image w-[990px]">
+            <div className="about-container lg:flex gap-5 sm:mt-40 mt-20">
+                <div className="about-image lg:w-[990px] flex justify-center">
                     <img src={about} alt="about" className="w-80" />
                 </div>
                 <div className="about-right">
-                    <div className="exp-edu flex gap-5">
-                        <div className="exp border w-96 flex flex-col items-center p-10 rounded-3xl border-slate-500">
+                    <div className="exp-edu sm:flex gap-5">
+                        <div className="exp border sm:w-96 flex flex-col items-center p-10 rounded-3xl border-slate-500">
                             <img src={exp} alt="experience" className="w-10"/>
                             <p className="text-2xl font-bold">Experience</p>
                             <p className="text-slate-500">Fresher</p>
                             <p className="text-slate-500">Frontend Development</p>
                         </div>
                         {/* ---------------------------------------- */}
-                        <div className="exp border w-96 flex flex-col items-center p-10 rounded-3xl border-slate-500">
+                        <div className="exp border mt-4 sm:w-96 sm:mt-0 flex flex-col items-center p-10 rounded-3xl border-slate-500">
                             <img src={exp} alt="experience" className="w-10"/>
                             <p className="text-2xl font-bold">Experience</p>
                             <p className="text-slate-500">Fresher</p>

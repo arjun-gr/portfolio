@@ -4,7 +4,7 @@ import linkedin from "../assets/linkedin.png"
 
 const Hero=()=>{
     return(
-        <div className="Hero sm:flex justify-center h-[85vh] gap-10 items-center ">
+        <div className="Hero lg:flex justify-center sm:h-[85vh] gap-10 items-center py-28 h-[100vh]">
             <div className="Left ">
                 <img src={pfp} alt="pfp" className="w-[500px] rounded-full" />
             </div>

@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client"
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import About from "./components/About"
+import Experience from "./components/Experience"
 
 let App=()=>{
     return(
@@ -9,6 +10,7 @@ let App=()=>{
            <Nav/>
         <Hero/>
         <About/>
+        <Experience/>
        </div>
     
     )
