@@ -5,9 +5,9 @@ const Nav=()=>{
             <h1>Arjun Gr.</h1>
             <ul className="sm:flex gap-16">
                 <li> <a href="#About">About</a></li>
-                <li>Experience</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contacts">Contact</a></li>
             </ul>
         </div>
         </>

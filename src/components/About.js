@@ -24,10 +24,10 @@ const About=()=>{
                         </div>
                         {/* ---------------------------------------- */}
                         <div className="exp border mt-4 sm:w-96 sm:mt-0 flex flex-col items-center p-10 rounded-3xl border-slate-500">
-                            <img src={exp} alt="experience" className="w-10"/>
-                            <p className="text-2xl font-bold">Experience</p>
-                            <p className="text-slate-500">Fresher</p>
-                            <p className="text-slate-500">Frontend Development</p>
+                            <img src={edu} alt="experience" className="w-10"/>
+                            <p className="text-2xl font-bold">Education</p>
+                            <p className="text-slate-500">Bachelors</p>
+                            <p className="text-slate-500">B.M.S</p>
                         </div>
                     </div>
                     <p className="mt-5 text-slate-500">Greetings! I'm Arjun Gahatraj, an enthusiastic and dedicated web developer fueled by a relentless passion for crafting remarkable digital experiences. With a background steeped in HTML, CSS, JavaScript, and an array of cutting-edge technologies, I possess the skills and expertise needed to transform your ideas into captivating online realities.</p>

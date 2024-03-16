@@ -3,6 +3,9 @@ import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import About from "./components/About"
 import Experience from "./components/Experience"
+import Projects from "./components/Projects"
+import Contacts from "./components/Contacts"
+import Footer from "./components/Footer"
 
 let App=()=>{
     return(
@@ -11,6 +14,9 @@ let App=()=>{
         <Hero/>
         <About/>
         <Experience/>
+        <Projects/>
+        <Contacts/>
+        <Footer/>
        </div>
     
     )
