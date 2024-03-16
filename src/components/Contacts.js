@@ -7,12 +7,12 @@ const Contacts=()=>{
             <div>
             <p className="text-center">Get in Touch</p>
             <h2 className="text-center text-5xl font-bold sm:my-3">Contact Me</h2>
-            <div className="border border-slate-500 p-10 rounded-3xl flex gap-7 mt-14">
+            <div className="border border-slate-500 p-10 rounded-3xl sm:flex sm:gap-7 mt-14 flex-wrap">
                 <div className="flex items-center">
                 <img src={email} alt="email" className="w-10" />
                 <a href="mailto:arjungr8898@gmail.com">arjungr8898@gmail.com</a>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center ml-1 sm:ml-0 mt-5 sm:mt-0 gap-2">
                 <img src={linkedin} alt="linkedin" className="w-8" />
                 <a href="https://www.linkedin.com/in/arjun-gahatraj/" target="blank">LinkedIn</a>
                 </div>
